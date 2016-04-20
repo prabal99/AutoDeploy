@@ -1,0 +1,42 @@
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+"aws-sdk": "2.2.1",
+"aws-cli":"0.0.1",
+"busboy": "0.2.13",
+    "express": "3.2.6",
+    "ejs": "*",
+    "body-parser":"1.14.1",
+    "cross-spawn": "^2.1.5",
+    "crypto-js": "^3.1.6",
+"ejs": "^2.4.1",
+"express": "3.4.4",
+"https-proxy-agent": "^1.0.0",
+"mocha": "^2.4.5",
+"mongodb": "^2.1.13",
+"multer":"1.1.0",
+"pg": "^4.5.1",
+"pm2": "^1.0.2",
+"proxy-agent": "^2.0.0",
+"should": "^8.3.0",
+"supertest": "^1.2.0",
+"tunnel-agent": "^0.4.2",
+"win-spawn": "^2.0.0",
+"zerorpc": "^0.9.6"
+  },
+"devDependencies": {
+    "mocha": "1.20.1",
+    "mocha-junit-reporter": "^1.8.0",
+    "supertest": "0.13.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/test.js",
+	"start": "node app.js"
+  }
+
+}
